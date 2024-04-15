@@ -3,7 +3,7 @@
 We introduce a semi-supervised learning framework capable of interpreting previously unseen cameras without calibration. We present this in our paper:
 
 
-Paper: Adapting CNNs for Fisheye Cameras without Retraining
+Paper: [Adapting CNNs for Fisheye Cameras without Retraining](https://arxiv.org/abs/2404.08187)
 
 Authors: [Ryan Griffiths](https://ryanbgriffiths.github.io), [Donald G. Dansereau](https://roboticimaging.org/)
 
