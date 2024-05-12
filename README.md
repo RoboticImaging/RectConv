@@ -12,7 +12,7 @@ Project Page: [roboticimaging.org/Projects/RectConv/](https://roboticimaging.org
 ### Environment
 Get code and build docker image (requires docker to be installed):
 
-    git clone 
+    git clone https://github.com/RoboticImaging/RectConv.git
     cd RectifyConv
     docker build -t rect_conv .
 
