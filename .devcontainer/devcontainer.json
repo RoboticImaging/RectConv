@@ -1,0 +1,30 @@
+{
+    "build": { "dockerfile": "../Dockerfile" },
+      
+    "runArgs": [
+        "--gpus",
+        "all",
+        "--shm-size",
+        "50G",
+        "--name",
+        "RectConv"
+    ],
+    
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "streetsidesoftware.code-spell-checker",
+          "ms-python.python",
+          "ms-toolsai.jupyter",
+          "ms-toolsai.vscode-jupyter-slideshow",
+          "ms-toolsai.jupyter-keymap"
+          ]
+      }
+    },
+    "portsAttributes": {
+      "6006": {
+        "label": "tensorboard"
+      }
+    }
+  
+}
